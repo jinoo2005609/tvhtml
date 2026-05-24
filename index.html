@@ -34,6 +34,12 @@
 	<a href="intent:#Intent;component=com.google.android.katniss/com.google.android.apps.tvsearch.preferences.activity.GoogleSettingsActivity;end">Open Google Assistant Settings</a><br>
 	<a href="intent:#Intent;component=com.google.android.katniss/com.google.android.apps.tvsearch.setup.AssistantSetupActivity;end">Open Google Assistant Setup Settings</a><br>
 	<a href="intent:#Intent;component=com.google.android.apps.mediashell/.settings.CastSettingsActivity;end">Open Google Cast Settings</a><br>
+	<a href="intent:#Intent;component=com.android.tv.settings/.device.apps.specialaccess.PictureInPictureActivity;end">Open PiP Permission Settings</a><br>
+	<a href="intent:#Intent;component=com.android.tv.settings/.device.display.daydream.DaydreamActivity;end">Open Daydream Settings</a><br>
+	<a href="intent:#Intent;component=com.android.tv.settings/.system.TextToSpeechActivity;end">Open TTS Settings</a><br>
+	<a href="intent:#Intent;component=com.android.tv.settings/.about.StatusActivity;end">Open Device Status Settings</a><br>
+	<a href="intent:#Intent;component=com.android.tv.settings/.inputmethod.InputMethodAndSubtypeEnablerActivity;end">Open Gboard Input Language Settings</a><br>
+	<a href="intent:#Intent;component=com.android.tv.settings/.enterprise.EnterprisePrivacySettingsActivity;end">Open Enterprise Privacy Settings</a><br>
 	<br>
 	<h3>Working, not intended</h3>
 	<a href="intent:#Intent;component=com.android.tv.settings/.accounts.AccountSyncActivity;end">Open Account Settings</a><br>
@@ -46,6 +52,9 @@
 	<a href="intent:#Intent;component=com.android.tv.settings/.MainSettings;action=android.settings.SLICE_SETTINGS;S.slice_uri=content%3A%2F%2Fcom.google.android.tv.btservices.settings.sliceprovider%2Fgeneral;end">Open Slice Bluetooth Settings</a><br>
 	<a href="intent:#Intent;component=com.android.vending/com.google.android.finsky.appdiscoveryservice.AppDiscoveryLaunchActivity;end">Open AppDiscoveryLaunch</a><br>
 	<a href="intent:#Intent;component=com.google.android.katniss/com.google.android.apps.tvsearch.setup.AssistantSetupForSetupWizardActivity;end">Open Google Assistant Setup Wizard Settings</a><br>
+	<a href="intent:#Intent;component=com.android.tv.settings/com.google.android.tv.settings.AmbientActivity;end">Open Ambient Settings</a><br>
+	<a href="intent:#Intent;component=com.android.tv.settings/.system.AppLanguageActivity;end">Open App Language Settings</a><br>
+	<a href="intent:#Intent;component=com.android.tv.settings/.privacy.SensorToggleActivity;end">Open Sensors Settings</a><br>
 	<br>
 	<h3>Not Working</h3>
 	<a href="intent:#Intent;component=com.droidlogic.tv.settings/.MainSettings;end">Open Droidlogic Settings</a><br>
@@ -74,26 +83,17 @@
 	<a href="intent:#Intent;component=com.google.android.katniss.setting/.SpeechSettingsActivity;end">Open Speech Settings</a><br>
 	<a href="intent:#Intent;component=com.google.android.katniss.setting/.SearchSettingsActivity;end">Open Search Settings</a><br>
 	<a href="intent:#Intent;component=com.google.android.gsf.notouch/.UsageDiagnosticsSettingActivity;end">Open Diagnostics Settings</a><br>
-	<br>
-	<h3>Untested</h3>
-	<a href="intent:#Intent;component=com.android.tv.settings/.device.apps.specialaccess.PictureInPictureActivity;end">Open PiP Permission Settings</a><br>
-	<a href="intent:#Intent;component=com.android.tv.settings/com.google.android.tv.settings.AmbientActivity;end">Open Ambient Settings</a><br>
-	<a href="intent:#Intent;component=com.android.tv.settings/.device.display.daydream.DaydreamActivity;end">Open Daydream Settings</a><br>
-	<a href="intent:#Intent;component=com.android.tv.settings/.system.TextToSpeechActivity;end">Open TTS Settings</a><br>
-	<a href="intent:#Intent;component=com.android.tv.settings/.autofill.AutofillPickerTrampolineActivity;end">Open Autofill Settings</a><br>
-	<a href="intent:#Intent;component=com.android.tv.settings/.system.AppLanguageActivity;end">Open App Language Settings</a><br>
-	<a href="intent:#Intent;component=com.android.tv.settings/.about.StatusActivity;end">Open Device Status Settings</a><br>
-	<a href="intent:#Intent;component=com.android.tv.settings/.system.FallbackHome;end">Open FallbackHome Settings</a><br>
-	<a href="intent:#Intent;component=com.android.tv.settings/.inputmethod.InputMethodAndSubtypeEnablerActivity;end">Open InputMethodAndSubtypeEnabler Settings</a><br>
-	<a href="intent:#Intent;component=com.android.tv.settings/.privacy.SensorToggleActivity;end">Open Sensors Settings</a><br>
-	<a href="intent:#Intent;component=com.android.tv.settings/.enterprise.EnterprisePrivacySettingsActivity;end">Open Enterprise Privacy Settings</a><br>
 	<a href="intent:#Intent;component=com.android.tv.settings/.slice.SliceActivity/com.google.android.tv.btservices.settings.sliceprovider/general;end">Open Bluetooth Slice Settings</a><br>
 	<a href="intent:#Intent;component=com.android.tv.settings/.slice.SliceActivity;action=android.settings.SLICE_SETTINGS;S.slice_uri=content%3A%2F%2Fcom.google.android.tv.btservices.settings.sliceprovider%2Fgeneral;end">Open Bluetooth Slice Settings</a><br>
 	<a href="intent:#Intent;component=com.android.tv.settings/.slice.SliceActivity;S.slice_uri=content%3A%2F%2Fcom.google.android.tv.btservices.settings.sliceprovider%2Fgeneral;end">Open Bluetooth Slice Settings</a><br>
 	<a href="intent:#Intent;component=com.android.tv.settings/.slice.SliceActivity;S.slice_uri='content://com.google.android.tv.btservices.settings.sliceprovider/general';end">Open Bluetooth Slice Settings</a><br>
-	<a href="intent:#Intent;component=com.android.tv.settings/.slice.SliceActivity;slice_uri=content%3A%2F%2Fcom.google.android.tv.btservices.settings.sliceprovider%2Fgeneral;end">Open Bluetooth Slice Settings</a><br>
+	<a href="intent:#Intent;component=com.android.tv.settings/.slice.SliceActivity;slice_uri=content%3A%2F%2Fcom.google.android.tv.btservices.settings.sliceprovider%2Fgeneral;end">Open Bluetooth Slice Settings (Crash)</a><br>
 	<a href="intent:#Intent;component=com.android.tv.settings/.slice.SliceActivity/slice_uri=content%3A%2F%2Fcom.google.android.tv.btservices.settings.sliceprovider%2Fgeneral;end">Open Bluetooth Slice Settings</a><br>
 	<a href="intent:#Intent;component=com.android.tv.settings/.slice.SliceActivity/content%3A%2F%2Fcom.google.android.tv.btservices.settings.sliceprovider%2Fgeneral;end">Open Bluetooth Slice Settings</a><br>
+	<br>
+	<h3>Untested</h3>
+	<a href="intent:#Intent;component=com.android.tv.settings/.autofill.AutofillPickerTrampolineActivity;end">Open Autofill Settings</a><br>
+	<a href="intent:#Intent;component=com.android.tv.settings/.system.FallbackHome;end">Open FallbackHome Settings</a><br>
 	<a href="intent:#Intent;component=com.android.tv.settings/;end">Open  Settings</a><br>
 </body>
 </html>
